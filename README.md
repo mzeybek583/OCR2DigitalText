@@ -1,2 +1,2 @@
 # OCR2DigitalText
-OCR implementation with #Matlab
+OCR implementation with # Matlab
