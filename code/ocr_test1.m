@@ -3,8 +3,8 @@
 close all; clc; clear all;
 format compact;
 fontSize = 20;
-addpath("E:\DR_Sonrasi_Projeler\Sempozyumlar\TUFUAB2022\Qgis\cropped_rasters\samples")
-tifFiles = dir('E:\DR_Sonrasi_Projeler\Sempozyumlar\TUFUAB2022\Qgis\cropped_rasters\samples\*.tif');
+addpath("E:\Sempozyumlar\TUFUAB2022\Qgis\cropped_rasters\samples")
+tifFiles = dir('E:\Sempozyumlar\TUFUAB2022\Qgis\cropped_rasters\samples\*.tif');
 numFiles = length(tifFiles);
 mydata = cell(1,numFiles);
 
